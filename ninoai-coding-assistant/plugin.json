@@ -1,0 +1,38 @@
+﻿{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "ninoai-coding-assistant",
+  "version": "0.1.0",
+  "description": "A coding assistant for explaining code, debugging errors, reviewing code, and planning tests.",
+  "author": {
+    "name": "NinoAI"
+  },
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "NinoAI Coding Assistant",
+        "shortDescription": "Explain, debug, and review code",
+        "longDescription": "NinoAI Coding Assistant helps developers understand code, investigate errors using supplied logs and snippets, review likely bugs and common security risks, and plan relevant tests. It works from code and context provided in the conversation. It does not independently access private repositories, connect to GitHub, run code, or execute tests. Users should verify suggestions in their own development environment.",
+        "developerName": "NinoAI",
+        "category": "Developer Tools",
+        "defaultPrompt": [
+          "Explain this code clearly and point out important edge cases.",
+          "Help debug this error using the code and logs I provide.",
+          "Review this code for likely bugs, security risks, and useful tests."
+        ],
+        "websiteURL": "https://ninoaiplugins.vercel.app/",
+        "supportURL": "https://ninoaiplugins.vercel.app/support.html",
+        "privacyPolicyURL": "https://ninoaiplugins.vercel.app/privacy.html",
+        "termsOfServiceURL": "https://ninoaiplugins.vercel.app/terms.html",
+        "logo": "assets/ninoai-icon.png",
+        "composerIcon": "assets/ninoai-icon.png"
+      },
+      "publication": {
+        "release_notes": "Initial release with code explanation, debugging guidance, code review, and test-planning support."
+      },
+      "review": {
+        "commerce": false,
+        "commerce_description": "Free to use. No purchases or paid features."
+      }
+    }
+  }
+}
