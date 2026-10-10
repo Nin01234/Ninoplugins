@@ -10,7 +10,7 @@
                        "com.openai":  {
                                           "interface":  {
                                                             "displayName":  "NinoAI Coding Assistant",
-                                                            "shortDescription":  "Explain, debug, and review code",
+                                                            "shortDescription":  "Explain, debug, review code",
                                                             "longDescription":  "NinoAI Coding Assistant helps developers understand code, investigate errors using supplied logs and snippets, review likely bugs and common security risks, and plan relevant tests. It works from code and context provided in the conversation. It does not independently access private repositories, connect to GitHub, run code, or execute tests. Users should verify suggestions in their own development environment.",
                                                             "developerName":  "NinoAI",
                                                             "category":  "Developer Tools",
@@ -39,3 +39,4 @@
                                       }
                    }
 }
+
